@@ -53,3 +53,7 @@ nav {
     background-size: cover !important;
     margin-bottom: 10vh;
 }
+
+footer {
+    text-align: center;
+}

@@ -29,16 +29,41 @@
                             <div class="uk-navbar-dropdown">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
                                     <li><a href="#fioul" uk-scroll>Fioul</a></li>
+                                    <li><a href="#gaz" uk-scroll>Gaz</a></li>
+                                    <li><a href="#clim" uk-scroll>Climatiseur</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Chauffage propre</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
                                     <li><a href="#bois" uk-scroll>Bois</a></li>
                                     <li><a href="#solaire" uk-scroll>Solaire</a></li>
-                                    <li><a href="#gaz" uk-scroll>Gaz</a></li>
                                     <li><a href="#pac" uk-scroll>Pompe à chaleur</a></li>
-                                    <li><a href="#clim" uk-scroll>Climatiseur</a></li>
                                     <li><a href="#poel" uk-scroll>Poel à bois</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <!-- <li><a href="#">Item</a></li> -->
+                        <li><a href="#sdb" uk-scroll>Sanitaire</a></li>
+                        <li><a href="#depannage" uk-scroll>Dépannage</a></li>
+                        <li><a href="#modal-sections" uk-toggle>Contact</a></li>
+                        <div id="modal-sections" uk-modal>
+                                <div class="uk-modal-dialog">
+                                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                                    <div class="uk-modal-header">
+                                        <h2 class="uk-modal-title">Me contacter</h2>
+                                    </div>
+                                    <div class="uk-modal-body">
+                                        <p>Mail: <a href="mailto:benoit.jalenques@wanadoo.fr">benoit.jalenques@wanadoo.fr</a></p>
+                                        <p>Tel fixe: 04 75 65 24 38</p>
+                                        <p>Tel portable: 06 74 50 25 07</p>
+                                    </div>
+                                    <div class="uk-modal-footer uk-text-right">
+                                        <button class="uk-button uk-button-default uk-modal-close" type="button">Quitter</button>
+                                    </div>
+                                </div>
+                            </div>
                     </ul>
             
                 </div>
@@ -47,7 +72,7 @@
                     <h1>Benoit Jalenques</h1>
                     <p>Artisan plombier, chauffagiste à Saint Fortunat sur Eyrieux</p>
                 </div>
-            <!-- -------------------------------------------------------------->
+            <!-- ------------------Section Chaudieres-------------------------------------------->
             <div id="fioul" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
                         <img src="image/viessman.jpeg" alt="" uk-cover>
@@ -60,113 +85,127 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <hr class="uk-divider-icon">
+                <div id="gaz" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                     <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                        <img src="image/hargassner.jpeg" alt="" uk-cover>
+                        <img src="image/gaz.jpg" alt="" uk-cover>
                         <canvas width="600" height="400"></canvas>
                     </div>
                     <div>
                         <div class="uk-card-body">
-                            <h3 class="uk-card-title">Chauffage bois</h3>
-                            <p>Ici se tiendra la section sur les chaudières bois</p>
+                            <h3 class="uk-card-title">Chauffage gaz</h3>
+                            <p>Ici se tiendra la section sur les chaudières gaz</p>
                         </div>
                     </div>
                 </div>
-            <!-- -------------------------------------------------------------->
-            <div class="uk-child-width-1-2@m" uk-grid>
-                    <div>
-                        <div class="uk-card uk-card-default">
-                            <div class="uk-card-media-top">
-                                <img src="image/viessman.jpeg" alt="">
-                            </div>
+                <hr class="uk-divider-icon">
+                <div id="clim" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                        <div class="uk-card-media-left uk-cover-container">
+                            <img src="image/clim.jpeg" alt="" uk-cover>
+                            <canvas width="600" height="400"></canvas>
+                        </div>
+                        <div>
                             <div class="uk-card-body">
-                                <h3 class="uk-card-title">Chauffage fioul</h3>
-                            <p>Ici se tiendra la section sur les chaudières fioul</p>
+                                <h3 class="uk-card-title">Climatiseur</h3>
+                                <p>Ici se tiendra la section sur les clims</p>
                             </div>
                         </div>
+                    </div>
+                <hr class="uk-divider-icon">
+            <!-- ----------------------Section écolo---------------------------------------->
+            <div id="bois" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                    <img src="image/hargassner.jpeg" alt="" uk-cover>
+                    <canvas width="600" height="400"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Chauffage bois</h3>
+                        <p>Ici se tiendra la section sur les chaudières bois</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="uk-divider-icon">
+            <div id="solaire" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                    <img src="image/solair.jpg" alt="" uk-cover>
+                    <canvas width="600" height="400"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Chauffage solaire</h3>
+                        <p>Ici se tiendra la section sur les panneaux solaire</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="uk-divider-icon">
+            <div id="pac" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="image/pac.jpeg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
                     </div>
                     <div>
-                        <div class="uk-card uk-card-default">
-                            <div class="uk-card-body">
-                                <h3 class="uk-card-title">Chauffage bois</h3>
-                            <p>Ici se tiendra la section sur les chaudières bois</p>
-                            </div>
-                            <div class="uk-card-media-bottom">
-                                <img src="image/viessman.jpeg" alt="">
-                            </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Pompe à chaleur</h3>
+                            <p>Ici se tiendra la section sur les pompes à chaleur</p>
                         </div>
                     </div>
                 </div>
-                <br>
-                <br>
-                <br>
-            <!-- <div class="chauffage" id="chauffage"> -->
-            <!-- </div> -->
-            <div id="bois" class="back uk-section uk-section-primary">
-                    <div class="uk-container">
-                
-                        <div class="uk-panel uk-light uk-margin-medium">
-                            <h3>Chaudière à fioul</h3>
+                <hr class="uk-divider-icon">
+                <div id="poele" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                        <img src="image/poele.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Poele à bois</h3>
+                            <p>Ici se tiendra la section sur les poeles à bois</p>
                         </div>
-                
-                        <div class="fioul uk-grid-match uk-child-width-expand@m" uk-grid>
-                            <!-- <div>
-                                <div class="uk-card uk-card-default uk-card-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                </div>
-                            </div> -->
-                            <div>
-                                <div class="fioul uk-card uk-card-default uk-card-body col-md-5">
-                                    <p>Voici les Chaudières fioul de chez Viessman</p>
-                                </div>
-                            </div>
-                        </div>
-                
                     </div>
                 </div>
-                <div class="back uk-section uk-section-primary">
-                        <div class="uk-container">
-                    
-                            <div class="uk-panel uk-light uk-margin-medium">
-                                <h3>Chaudière à bois</h3>
-                            </div>
-                    
-                            <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
-                                <!-- <div>
-                                    <div class="uk-card uk-card-default uk-card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                </div> -->
-                                <div>
-                                    <div class="uk-card uk-card-default uk-card-body col-md-5">
-                                        <p>Voici les Chaudières bois de chez Hargassner</p>
-                                    </div>
-                                </div>
-                            </div>
-                    
+                <hr>
+                <div id="sdb" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="image/sdb1_cut.png" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Salle de bain</h3>
+                            <p>Ici se tiendra la section sur les salle de bain</p>
                         </div>
                     </div>
-                    <div class="back uk-section uk-section-primary">
-                            <div class="uk-container">
-                        
-                                <div class="uk-panel uk-light uk-margin-medium">
-                                    <h3>Chaudière à gaz</h3>
-                                </div>
-                        
-                                <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
-                                    <!-- <div>
-                                        <div class="uk-card uk-card-default uk-card-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div> -->
-                                    <div>
-                                        <div class="uk-card uk-card-default uk-card-body col-md-8">
-                                            <p>Voici les Chaudières gaz de chez le fournisseur</p>
-                                        </div>
-                                    </div>
-                                </div>
-                        
-                            </div>
+                </div>
+                <hr class="uk-divider-icon">
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                        <img src="image/sdb2.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body">
+                            <p>Ici se tiendra la suite de la section sur les salles de bain</p>
                         </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="depannage" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="image/outils.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Dépannage</h3>
+                            <p>Ici se tiendra la section sur les dépannage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" uk-totop uk-scroll></a>
     </body>
+    <footer>
+        <hr>
+        <p>Made by <a href="https://mjalenqu.github.io/web_cv/" target="_blank">mjalenqu</a> to Benoit Jalenques Plomberie ©2019</p>
+    </footer>
