@@ -55,12 +55,13 @@
                                         <h2 class="uk-modal-title">Me contacter</h2>
                                     </div>
                                     <div class="uk-modal-body">
+                                        <p>Du Lundi au Vendredi de 8h à 18h</p>
                                         <p>Mail: <a href="mailto:benoit.jalenques@wanadoo.fr">benoit.jalenques@wanadoo.fr</a></p>
                                         <p>Tel fixe: 04 75 65 24 38</p>
                                         <p>Tel portable: 06 74 50 25 07</p>
                                     </div>
                                     <div class="uk-modal-footer uk-text-right">
-                                        <button class="uk-button uk-button-default uk-modal-close" type="button">Quitter</button>
+                                        <button class="uk-button uk-button-primary uk-modal-close" type="button">Quitter</button>
                                     </div>
                                 </div>
                             </div>
@@ -68,14 +69,24 @@
             
                 </div>
             </nav>
-            <div class="presentation" id="presentation">
-                    <h1>Benoit Jalenques</h1>
+            <div class="marg"></div>
+            <div id="presentation" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                        <img src="image/van.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body">
+                            <h1 class="uk-card-title">Benoit Jalenques</h1>
                     <p>Artisan plombier, chauffagiste à Saint Fortunat sur Eyrieux</p>
+                        </div>
+                    </div>
                 </div>
+                <hr class="uk-divider-icon">
             <!-- ------------------Section Chaudieres-------------------------------------------->
             <div id="fioul" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img src="image/viessman.jpeg" alt="" uk-cover>
+                        <img src="image/pipeline.jpg" alt="" uk-cover>
                         <canvas width="600" height="400"></canvas>
                     </div>
                     <div>
@@ -101,7 +112,7 @@
                 <hr class="uk-divider-icon">
                 <div id="clim" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                         <div class="uk-card-media-left uk-cover-container">
-                            <img src="image/clim.jpeg" alt="" uk-cover>
+                            <img src="image/cold.jpg" alt="" uk-cover>
                             <canvas width="600" height="400"></canvas>
                         </div>
                         <div>
@@ -113,22 +124,9 @@
                     </div>
                 <hr class="uk-divider-icon">
             <!-- ----------------------Section écolo---------------------------------------->
-            <div id="bois" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                    <img src="image/hargassner.jpeg" alt="" uk-cover>
-                    <canvas width="600" height="400"></canvas>
-                </div>
-                <div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">Chauffage bois</h3>
-                        <p>Ici se tiendra la section sur les chaudières bois</p>
-                    </div>
-                </div>
-            </div>
-            <hr class="uk-divider-icon">
             <div id="solaire" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                 <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                    <img src="image/solair.jpg" alt="" uk-cover>
+                    <img src="image/solair.png" alt="" uk-cover>
                     <canvas width="600" height="400"></canvas>
                 </div>
                 <div>
@@ -140,20 +138,35 @@
             </div>
             <hr class="uk-divider-icon">
             <div id="pac" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                    <div class="uk-card-media-left uk-cover-container">
-                        <img src="image/pac.jpeg" alt="" uk-cover>
-                        <canvas width="600" height="400"></canvas>
-                    </div>
-                    <div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Pompe à chaleur</h3>
-                            <p>Ici se tiendra la section sur les pompes à chaleur</p>
-                        </div>
+                <div class="uk-card-media-left uk-cover-container">
+                    <img src="image/pac.jpeg" alt="" uk-cover>
+                    <canvas width="600" height="400"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Pompe à chaleur</h3>
+                        <p>Ici se tiendra la section sur les pompes à chaleur</p>
                     </div>
                 </div>
+            </div>
+            <hr class="uk-divider-icon">
+                <div id="bois" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                        <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                            <img src="image/wood.jpg" alt="" uk-cover>
+                            <canvas width="600" height="400"></canvas>
+                        </div>
+                        <div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Chauffage bois</h3>
+                                <p>Ici se tiendra la section sur les chaudières bois</p>
+                            </div>
+                        </div>
+                    </div>
                 <hr class="uk-divider-icon">
                 <div id="poele" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                        <div class="uk-card-media-left uk-cover-container">
+                <!-- <div id="poele" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid> -->
+                    <!-- <div class="uk-flex-last@s uk-card-media-right uk-cover-container"> -->
                         <img src="image/poele.jpg" alt="" uk-cover>
                         <canvas width="600" height="400"></canvas>
                     </div>
@@ -166,7 +179,7 @@
                 </div>
                 <hr>
                 <div id="sdb" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                    <div class="uk-card-media-left uk-cover-container">
+                        <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
                         <img src="image/sdb1_cut.png" alt="" uk-cover>
                         <canvas width="600" height="400"></canvas>
                     </div>
@@ -179,8 +192,8 @@
                 </div>
                 <hr class="uk-divider-icon">
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                        <img src="image/sdb2.jpg" alt="" uk-cover>
+                        <div class="uk-card-media-left uk-cover-container">
+                                <img src="image/sdb2.jpg" alt="" uk-cover>
                         <canvas width="600" height="400"></canvas>
                     </div>
                     <div>
@@ -191,7 +204,7 @@
                 </div>
                 <hr>
                 <div id="depannage" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                    <div class="uk-card-media-left uk-cover-container">
+                        <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
                         <img src="image/outils.jpg" alt="" uk-cover>
                         <canvas width="600" height="400"></canvas>
                     </div>
@@ -203,9 +216,9 @@
                     </div>
                 </div>
 
-                <a href="#" uk-totop uk-scroll></a>
+                <a style="margin-left: 90vw;font-size: 4vh;" href="#" uk-scroll><i class="fas fa-angle-up"></i></i></a>
     </body>
-    <footer>
+    <footer style="font-size: 0.75vh;">
         <hr>
-        <p>Made by <a href="https://mjalenqu.github.io/web_cv/" target="_blank">mjalenqu</a> to Benoit Jalenques Plomberie ©2019</p>
+        <p>Made by <a href="https://mjalenqu.github.io/web_cv/" target="_blank">Martin Jalenques</a> to Benoit Jalenques Plomberie ©2019</p>
     </footer>

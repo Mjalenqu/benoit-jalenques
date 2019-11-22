@@ -19,41 +19,12 @@ nav {
     background-color: rgb(197, 194, 193) !important;
 }
 
-.inter {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-}
 
-.presentation {
-    margin-left: 10vw;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
-}
-
-.chauffage {
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-bottom: 25vh;
-}
-
-.fioul {
-    text-align: right;
-    padding-bottom: 5vh;
-    /* justify-content: flex-end; */
-}
-
-.bois {
-    padding-top: 5vh;
-    /* justify-content: flex-start; */
-}
-
-.back {
-    background-image: url('image/donuts.jpg') !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    margin-bottom: 10vh;
-}
 
 footer {
     text-align: center;
+}
+
+.marg {
+    margin-top: 10vh;
 }
